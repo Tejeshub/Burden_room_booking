@@ -1,0 +1,21 @@
+type Resource {
+  id: ID!
+  name: String!
+  capacity: Int!
+  createdAt: DateTime!
+  bookings: [Booking!]!
+}
+
+extend type Query {
+  resources: [Resource!]!
+  resource(id: ID!): Resource
+}
+
+input CreateResourceInput {
+  name: String!
+  capacity: Int!
+}
+
+extend type Mutation {
+  createResource(input: CreateResourceInput!): Resource!
+}

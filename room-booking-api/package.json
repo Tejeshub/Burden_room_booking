@@ -1,0 +1,33 @@
+{
+  "name": "room-booking-api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^26.3.0",
+    "bun-types": "^1.4.0",
+    "prisma": "5.22.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^7.0.1",
+    "@graphql-tools/schema": "^10.1.0",
+    "@prisma/client": "5.22.0",
+    "graphql": "^17.0.2",
+    "graphql-yoga": "^5.22.0"
+  },
+  "scripts": {
+    "postinstall": "prisma skills sync || exit 0",
+    "build": "bun run db:generate",
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:test:prepare": "bun run scripts/prepare-test-db.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch"
+  }
+}
