@@ -232,13 +232,13 @@ Navigate to `frontend/` and run:
 ## Screenshots
 
 
-| ![Dashboard Overview](./Screenshots/dashboardOverview.png) | ![Resource Creation](./Screenshots/resourceCreation.png) |
+| ![Dashboard Overview] | ![Resource Creation] |
 |--------------------|-------------------|
-| *[Insert Image]*   | *[Insert Image]*  |
+|  (./Screenshots/dashboardOverview.png) | (./Screenshots/ResourceCreation.png)|
 
-| ![Availability Check](./Screenshots/availabilityCheck.png) | ![Booking Conflicts](./Screenshots/bookingConflict.png) |
+| ![Availability Check] | ![Booking Conflicts]
 |--------------------|-------------------|
-| *[Insert Image]*   | *[Insert Image]*  |
+| (./Screenshots/availabilityCheck.png)   | (./Screenshots/bookingConflict.png) |  |
 
 ## Future Improvements
 
