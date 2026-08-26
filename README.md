@@ -232,11 +232,11 @@ Navigate to `frontend/` and run:
 ## Screenshots
 
 
-| Dashboard Overview(./Screenshots/dashboardOverview.png) | Resource Creation(./Screenshots/resourceCreation.png) |
+| ![Dashboard Overview](./Screenshots/dashboardOverview.png) | ![Resource Creation](./Screenshots/resourceCreation.png) |
 |--------------------|-------------------|
 | *[Insert Image]*   | *[Insert Image]*  |
 
-| Availability Check(./Screenshots/availabilityCheck.png) | Booking Conflicts(./Screenshots/bookingConflict.png) |
+| ![Availability Check](./Screenshots/availabilityCheck.png) | ![Booking Conflicts](./Screenshots/bookingConflict.png) |
 |--------------------|-------------------|
 | *[Insert Image]*   | *[Insert Image]*  |
 
