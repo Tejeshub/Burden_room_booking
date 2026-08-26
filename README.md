@@ -231,13 +231,12 @@ Navigate to `frontend/` and run:
 
 ## Screenshots
 
-*(Placeholders for future screenshots)*
 
-| Dashboard Overview | Resource Creation |
+| Dashboard Overview(./Screenshots/dashboardOverview.png) | Resource Creation(./Screenshots/resourceCreation.png) |
 |--------------------|-------------------|
 | *[Insert Image]*   | *[Insert Image]*  |
 
-| Availability Check | Booking Conflicts |
+| Availability Check(./Screenshots/availabilityCheck.png) | Booking Conflicts(./Screenshots/bookingConflict.png) |
 |--------------------|-------------------|
 | *[Insert Image]*   | *[Insert Image]*  |
 
